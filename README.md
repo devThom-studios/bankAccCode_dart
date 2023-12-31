@@ -24,3 +24,10 @@ import 'myBankAcc.dart';
 void main() {
   var bankAccount = BankAccount();
 }
+```
+## Depositing Money
+
+To deposit money into your account, use the `.deposit` method:
+
+```dart
+bankAccount.deposit(3000); // Deposit $3000
