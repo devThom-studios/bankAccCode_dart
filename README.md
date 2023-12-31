@@ -17,7 +17,10 @@ Ensure you have Dart installed on your system. If not, you can download and inst
 
 To use the `BankAccount` class in your Dart application, follow these steps:
 
-1. Import the script at the beginning of your Dart file:
+#### Creating an Instance
+```dart
+import 'myBankAcc.dart';
 
-   ```dart
-   import 'myBankAcc.dart';
+void main() {
+  var bankAccount = BankAccount();
+}
