@@ -38,4 +38,16 @@ To check your current balance, use the `.myBalance` method:
 ```dart
 bankAccount.myBalance(); // Displays the current balance
 ```
+#### Withdrawing Money
+To withdraw money from your account, use the `.withdraw` method:
+
+```dart
+bankAccount.withdraw(1400); // Withdraw $1400
+
+```
+Again, you can check your balance using `.myBalance`:
+```dart
+bankAccount.myBalance(); // Displays the updated balance
+
+```
 
