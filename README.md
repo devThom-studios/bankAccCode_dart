@@ -30,7 +30,7 @@ void main() {
 To deposit money into your account, use the `.deposit` method:
 
 ```dart
-bankAccount.deposit(3000); // Deposit $3000
+bankAccount.deposit(amount); // Deposit $3000
 ```
 #### Checking Balance
 To check your current balance, use the `.myBalance` method:
@@ -42,7 +42,7 @@ bankAccount.myBalance(); // Displays the current balance
 To withdraw money from your account, use the `.withdraw` method:
 
 ```dart
-bankAccount.withdraw(1400); // Withdraw $1400
+bankAccount.withdraw(amount); // Withdraw $1400
 
 ```
 Again, you can check your balance using `.myBalance`:
