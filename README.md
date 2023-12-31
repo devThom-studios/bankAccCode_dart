@@ -25,9 +25,17 @@ void main() {
   var bankAccount = BankAccount();
 }
 ```
-## Depositing Money
+#### Depositing Money
 
 To deposit money into your account, use the `.deposit` method:
 
 ```dart
 bankAccount.deposit(3000); // Deposit $3000
+```
+#### Checking Balance
+To check your current balance, use the `.myBalance` method:
+
+```dart
+bankAccount.myBalance(); // Displays the current balance
+```
+
