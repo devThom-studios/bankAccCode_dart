@@ -48,6 +48,26 @@ bankAccount.withdraw(1400); // Withdraw $1400
 Again, you can check your balance using `.myBalance`:
 ```dart
 bankAccount.myBalance(); // Displays the updated balance
-
 ```
+### Example: Tracking Expenses
+Suppose you want to track how you've spent a total of $3500. Here's an example of how you can do that:
+```dart
+import 'myBankAcc.dart';
+
+void main() {
+  var bankAccount = BankAccount();
+  bankAccount.deposit(3500); // Deposit initial amount
+  bankAccount.withdraw(1500); // Withdraw an expense
+  bankAccount.withdraw(750);  // Withdraw another expense
+  bankAccount.deposit(700);   // Deposit additional funds
+  bankAccount.deposit(825);   // Another deposit
+  bankAccount.withdraw(625);  // Final withdrawal
+  bankAccount.myBalance();    // Check final balance
+}
+
+// Expected Output: Your balance is $2150
+```
+In this example, various transactions are performed, and the final balance is displayed, providing a clear picture of your expenses and remaining funds.
+
+
 
